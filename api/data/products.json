@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Samsung Gallexy Note 2",
+        "price": "563.90",
+        "description": "this is the description about Samsung Note 2",
+        "rating": 4.5,
+        "images": [
+            {
+                "image": "product_demo.jpg"
+            }
+        ],
+        "category": "Mobile Phones",
+        "seller":"Amazon",
+        "stock":5,
+        "numOfReviews":12,
+        "reviews":[]
+    },
+    {
+        "name": "Samsung curved UHD Tv",
+        "price": "6776.90",
+        "description": "this is the description",
+        "rating": 4.5,
+        "images": [
+            {
+                "image": "product_demo1.jpg"
+            }
+        ],
+        "category": "Electronics",
+        "seller":"samsung",
+        "stock":5,
+        "numOfReviews":12,
+        "reviews":[]
+    },
+    {
+        "name": "Lenovo thinkpad 420T",
+        "price": "7457.90",
+        "description": "this is the description",
+        "rating": 4.5,
+        "images": [
+            {
+                "image": "product_demo2.jpg"
+            }
+        ],
+        "category": "Laptops",
+        "seller":"Amazon",
+        "stock":5,
+        "numOfReviews":12,
+        "reviews":[]
+    },
+    {
+        "name": "Talk Like Ted",
+        "price": "150.90",
+        "description": "this is the description",
+        "rating": 5,
+        "images": [
+            {
+                "image": "product_demo3.jpg"
+            }
+        ],
+        "category": "Books",
+        "seller":"Carmine Gallo",
+        "stock":7,
+        "numOfReviews":19,
+        "reviews":[]
+    },
+    {
+        "name": "Nike sports shoes ",
+        "price": "632.90",
+        "description": "this is the description",
+        "rating": 4,
+        "images": [
+            {
+                "image": "product_demo.jpg"
+            }
+        ],
+        "category": "Clothes/Shoes",
+        "seller":"Nike",
+        "stock":5,
+        "numOfReviews":12,
+        "reviews":[]
+    }
+    
+]
