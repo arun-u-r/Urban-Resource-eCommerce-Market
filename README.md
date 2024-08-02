@@ -1,7 +1,9 @@
 ## Introduction
 
-Welcome to Urban-Resource-eCommerce-Market, 
-Urban Resource is the all-in-one solution designed to enhance urban living through powerful and intuitive tools. This platform crafted with the MERN stack (MongoDB, Express, React, Node.js). This platform is designed to offer a seamless shopping experience with a modern interface and powerful backend capabilities for managing urban resources and services.
+### Welcome to __Urban-Resource-eCommerce-Market__, 
+
+- Urban Resource is the all-in-one solution designed to enhance urban living through powerful and intuitive tools. This platform crafted with the __MERN stack__ (MongoDB, Express, React, Node.js).
+-  This platform is designed to offer a seamless shopping experience with a modern user interface and powerful backend capabilities for managing urban resources and services.
 
 
 ## Project Structure
