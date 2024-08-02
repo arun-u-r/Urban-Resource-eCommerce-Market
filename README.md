@@ -97,10 +97,11 @@ Replace the placeholder values with your actual configuration.
     SMTP_FROM_EMAIL=noreply@yourapp.com
   
 
-### Access the Application: (backend)
-- ## Usage
+## Access the Application: 
 
 Once the server is running, open your browser and navigate to `http://localhost:3000` for the frontend and `http://localhost:5005` for the backend.
+
+- __Have Fun__ _Amigo_
 
 ## License
 
