@@ -51,9 +51,6 @@ cd api
 npm start
 ```
 
-## Access the Application:
-
-Open your web browser and navigate to http://localhost:3000 to view the frontend of the E-Commerce App.
 
 ## Features
 
@@ -62,13 +59,16 @@ Open your web browser and navigate to http://localhost:3000 to view the frontend
 * Product review and rating
 * Order processing and history
 
+
 ## Contributing
 
-Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request
+welcome contributions! To get started, follow these steps:
 
-## License
-
-This project is licensed under the MIT License.
+1. **Fork the repository**
+2. **Create a new branch for your feature**
+3. **Make your changes and commit them**
+4. **Push to your forked repository**
+5. **Open a Pull Request**
 
 
 ## Acknowledgments
@@ -84,20 +84,26 @@ Replace the placeholder values with your actual configuration.
 # .env.example
 
     PORT=5005
-    NODE_ENV=development
+    NODE_ENV=development/production
     DB_LOCAL_URI=mongodb://localhost:27017/your_database
     JWT_SECRET=your_jwt_secret
     JWT_EXPIRES_TIME=your_jwt_expire_time (7d)
     COOKIE_EXPIRES_TIME=7
-    SMTP_HOST=smtp.example.com
-    SMTP_PORT=587
+    SMTP_HOST=your_smtp_host (smtp.example.com)
+    SMTP_PORT=your_smtp_port
     SMTP_USER=your_smtp_user
     SMTP_PASS=your_smtp_pass
     SMTP_FROM_NAME=YourAppName
     SMTP_FROM_EMAIL=noreply@yourapp.com
   
 
-### Usage
-- Open your browser
-- Navigate to http://localhost:5005
-- ____Enjoy Amigio____
+### Access the Application: (backend)
+- ## Usage
+
+Once the server is running, open your browser and navigate to `http://localhost:3000` for the frontend and `http://localhost:5005` for the backend.
+
+## License
+
+This project is licensed under the MIT License.
+
+
