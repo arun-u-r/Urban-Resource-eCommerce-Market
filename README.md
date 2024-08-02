@@ -76,8 +76,27 @@ This project is licensed under the MIT License.
 + Node.js for the server-side environment
 + React for the frontend framework
 + Express for the backend framework
+  
+## **Set up environment variables**
+
+    Create a `.env` file in the root directory of your project and copy the contents of the `.env.example` file into it. Replace the placeholder values with your actual configuration.
+
+    ```plaintext
+     PORT=5005
+    NODE_ENV=development
+    DB_LOCAL_URI=mongodb://localhost:27017/your_database
+    JWT_SECRET=your_jwt_secret
+    JWT_EXPIRES_TIME=your_jwt_expire_time (7d)
+    COOKIE_EXPIRES_TIME=7
+    SMTP_HOST=smtp.example.com
+    SMTP_PORT=587
+    SMTP_USER=your_smtp_user
+    SMTP_PASS=your_smtp_pass
+    SMTP_FROM_NAME=YourAppName
+    SMTP_FROM_EMAIL=noreply@yourapp.com
+    ```
 
 ### Usage
 - Open your browser
-- Navigate to http://localhost:3000
+- Navigate to http://localhost:5005
 - ____Enjoy Amigio____
