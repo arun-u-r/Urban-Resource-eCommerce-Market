@@ -78,6 +78,6 @@ React for the frontend framework
 Express for the backend framework
 
 ### Usage
--Open your browser
--Navigate to http://localhost:3000
-__Enjoy Amigio__ 
+- Open your browser
+- Navigate to http://localhost:3000
+-__Enjoy Amigio__ 
