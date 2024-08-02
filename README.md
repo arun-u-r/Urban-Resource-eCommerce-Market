@@ -83,8 +83,7 @@ Replace the placeholder values with your actual configuration.
     
 # .env.example
 
-    ```plaintext
-     PORT=5005
+    PORT=5005
     NODE_ENV=development
     DB_LOCAL_URI=mongodb://localhost:27017/your_database
     JWT_SECRET=your_jwt_secret
@@ -96,7 +95,7 @@ Replace the placeholder values with your actual configuration.
     SMTP_PASS=your_smtp_pass
     SMTP_FROM_NAME=YourAppName
     SMTP_FROM_EMAIL=noreply@yourapp.com
-    ```
+  
 
 ### Usage
 - Open your browser
