@@ -1,6 +1,8 @@
 ## Introduction
 
-The E-Commerce App is a project aimed at creating a comprehensive online shopping platform. This is the initial commit, setting up the basic structure for both the frontend and backend components of the application.
+Welcome to Urban-Resource-eCommerce-Market, 
+Urban Resource is the all-in-one solution designed to enhance urban living through powerful and intuitive tools. This platform crafted with the MERN stack (MongoDB, Express, React, Node.js). This platform is designed to offer a seamless shopping experience with a modern interface and powerful backend capabilities for managing urban resources and services.
+
 
 ## Project Structure
 
