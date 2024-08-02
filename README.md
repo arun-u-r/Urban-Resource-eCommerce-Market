@@ -79,7 +79,9 @@ This project is licensed under the MIT License.
   
 ## **Set up environment variables**
 
-    Create a `.env` file in the root directory of your project and copy the contents of the `.env.example` file into it. Replace the placeholder values with your actual configuration.
+    Create a `.env` file in the root directory of your project and copy the contents of the `.env.example` file into it.
+    Replace the placeholder values with your actual configuration.
+# .env.example
 
     ```plaintext
      PORT=5005
