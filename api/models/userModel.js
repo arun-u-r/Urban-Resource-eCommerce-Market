@@ -40,7 +40,6 @@ const userSchema = new mongoose.Schema({
 });
 
 // Hash password before saving user document
-
 userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) {
     return next();
@@ -50,7 +49,6 @@ userSchema.pre("save", async function (next) {
 });
 
 //Genarate jwt Token
-
 userSchema.methods.getJwtToken = function () {
   return jwt.sign({ id: this.id }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_TIME,
@@ -58,11 +56,9 @@ userSchema.methods.getJwtToken = function () {
 };
 
 //Compare entered password with hashed password
-
 userSchema.methods.isValidPassword = async function (enterdPassword) {
   return await bcrypt.compare(enterdPassword, this.password);
 };
-
 
 //Get Password reset token
 userSchema.methods.getResetToken = function () {
@@ -82,5 +78,4 @@ userSchema.methods.getResetToken = function () {
 };
 
 let model = mongoose.model("User", userSchema);
-
 export default model;

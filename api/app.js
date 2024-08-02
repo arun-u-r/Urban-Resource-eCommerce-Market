@@ -5,6 +5,7 @@ import productRouter from './routes/productRoutes.js';
 import errorMiddleware from './middlewares/error.js';
 import authRouter from './routes/authRoutes.js';
 import cookieParser from 'cookie-parser';
+import orderRouter from './routes/orderRoutes.js';
 
 const app = express();
  
@@ -17,7 +18,8 @@ app.use(cors());
 
 // app.use('/api/todo',todoRoutes)
 app.use('/api/v1/',productRouter);
-app.use('/api/v1', authRouter)
+app.use('/api/v1/', authRouter)
+app.use('/api/v1/', orderRouter)
 
 //==================================== 
 app.use(errorMiddleware)

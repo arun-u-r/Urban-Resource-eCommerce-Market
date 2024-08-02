@@ -28,7 +28,7 @@ export const isAuthenticateUser = catchAsyncError(async (req, res, next) => {
   }
 });
 
-export const authorizeUser = (...roles) => {
+export const authorizeRoles = (...roles) => {
   return (req, res, next) => {
     if (!roles.includes(req.user.role)) {
       return next(new ErrorHandler(`Unautorized Role ${req.user.role}`, 401));
