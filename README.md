@@ -50,10 +50,10 @@ Open your web browser and navigate to http://localhost:3000 to view the frontend
 
 ## Features
 
-1.User registration and authentication
-2.Product listing and search functionality
-3.Product review and rating
-4.Order processing and history
+* User registration and authentication
+* Product listing and search functionality
+* Product review and rating
+* Order processing and history
 
 ## Contributing
 
