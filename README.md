@@ -1,4 +1,4 @@
-<p style="color: #3498db; font-size: 2em;">Introduction</P>
+<h1 style="color: #DF2C2B; font-size: 5em, font-weight: extra-bold ">Introduction</h1>
 
 
 ### Welcome to __Urban-Resource-eCommerce-Market__, 
