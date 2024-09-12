@@ -106,10 +106,10 @@ Replace the placeholder values with your actual configuration.
 
 Once the server is running, open your browser and navigate to `http://localhost:3000` for the frontend and `http://localhost:5005` for the backend.
 
-- __Have Fun__ _Amigo_
-
 ## License
 
 This project is licensed under the MIT License.
 
+## natural mystic:
 
+__Have Fun Amigo__ !!🤸‍♂️
