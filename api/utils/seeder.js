@@ -2,8 +2,12 @@ import products from "../data/products.json" assert { type: "json" };
 import Product from "../models/productModel.js";
 import  dotenv from 'dotenv';
 import connectDatabase from '../config/database.js' 
+import { fileURLToPath } from "url";
+import path from 'path';
 
-dotenv.config({ path: "config/config.env" });
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+// absolute path
+dotenv.config({path: path.join(__dirname, "../config/config.env")})
 connectDatabase()
 
 const seedProdects = async () => {

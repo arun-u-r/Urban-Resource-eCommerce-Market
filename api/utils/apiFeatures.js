@@ -32,10 +32,8 @@ class APIFeatures {
     // console.log(queryStringCopy);
 
     let queryString = JSON.stringify(queryStringCopy);
-    queryString = queryString.replace(
-      /\b(gt|gte|lt|lte)/g,
-      match  => `$${match}`
-    ); //converting gt to $$gt etc..
+    //converting gt to $$gt etc..
+    queryString = queryString.replace(/\b(gt|gte|lt|lte)/g,match  => `$${match}`); 
 
     this.query.find(JSON.parse(queryString));
 

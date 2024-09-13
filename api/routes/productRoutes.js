@@ -13,7 +13,7 @@ import {authorizeRoles, isAuthenticateUser} from '../middlewares/authenticate.js
 
 const productRouter = express.Router();
 
-productRouter.route("/products").get(isAuthenticateUser, getProducts);
+productRouter.route("/products").get(getProducts);//isAuthenticateUser
 productRouter.route("/product/:id").get(getSingleProduct)
                                     .put(updateProduct)
                                     .delete(deleteProduct);

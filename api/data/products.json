@@ -1,83 +1,532 @@
 [
-    {
-        "name": "Samsung Gallexy Note 2",
-        "price": "563.90",
-        "description": "this is the description about Samsung Note 2",
-        "rating": 4.5,
+     {
+        "name": "Apple MacBook Air M2",
+        "price": "999.99",
+        "description": "The MacBook Air is powered by the M2 chip, delivering enhanced performance and energy efficiency for all your everyday computing tasks.",
+        "ratings": 4.8,
+        "images": [
+          { "image": "/images/products/macbook_air1.jpg" },
+          { "image": "/images/products/macbook_air2.jpg" },
+          { "image": "/images/products/macbook_air2.jpg" }
+        ],
+        "category": "Laptops",
+        "seller": "Apple",
+        "stock": 15,
+        "numofReviews": 200,
+        "reviews": [
+          {
+            "user": "64f6d9e9b2b78e5c9f1a7e23",
+            "rating": 5,
+            "comment": "Super fast and lightweight!"
+          }
+        ]
+      },
+      {
+        "name": "Sony WH-1000XM4 Wireless Noise Cancelling Headphones",
+        "price": "349.99",
+        "description": "Industry-leading noise cancellation with Dual Noise Sensor technology, exceptional sound quality, and up to 30 hours of battery life.",
+        "ratings": 4.8,
         "images": [
             {
-                "image": "product_demo.jpg"
+                "image": "/images/products/sony_headphones1.jpg"
+            },
+            {
+                "image": "/images/products/sony_headphones2.jpg"
             }
         ],
-        "category": "Mobile Phones",
-        "seller":"Amazon",
+        "category": "Headphones",
+        "seller": "Sony",
+        "stock": 75,
+        "numofReviews": 450,
+        "reviews": []
+    },
+    {
+        "name": "Nikon Z6 II Mirrorless Digital Camera",
+        "price": "1999.99",
+        "description": "The Nikon Z6 II is a versatile mirrorless camera with a 24.5MP sensor, fast autofocus, and 4K UHD video recording, perfect for both photography and videography enthusiasts.",
+        "ratings": 4.7,
+        "images": [
+            {
+                "image": "/images/products/nikon_z6_1.jpg"
+            },
+            {
+                "image": "/images/products/nikon_z6_2.jpg"
+            }
+        ],
+        "category": "Electronics",
+        "seller": "Nikon",
+        "stock": 20,
+        "numofReviews": 95,
+        "reviews": []
+    },
+    {
+        "name": "Nest Thermostat (3rd Gen)",
+        "price": "249.99",
+        "description": "The Nest Learning Thermostat automatically adapts as your life changes. It programs itself and helps save energy, making it a smart choice for your home.",
+        "ratings": 4.6,
+        "images": [
+            {
+                "image": "/images/products/nest_thermostat1.jpg"
+            }
+        ],
+        "category": "Home",
+        "seller": "Nest",
+        "stock": 120,
+        "numofReviews": 325,
+        "reviews": []
+    },
+      {
+        "name": "Sony WH-1000XM5 Wireless Headphones",
+        "price": "349.99",
+        "description": "Sony industry-leading noise-canceling wireless headphones with up to 30 hours of battery life. Perfect for immersive music and long flights.",
+        "ratings": 4.9,
+        "images": [
+          { "image": "/images/products/sony_headphones3.jpg" },
+          { "image": "/images/products/sony_headphones5.jpg" },
+          { "image": "/images/products/sony_headphones6.jpg" }
+        ],
+        "category": "Headphones",
+        "seller": "Sony",
+        "stock": 50,
+        "numofReviews": 500,
+        "reviews": [
+          {
+            "user": "663158bedfafeb997ca73159",
+            "rating": 5,
+            "comment": "Best noise-canceling headphones I have used!"
+          }
+        ]
+      },
+      {
+        "name": "Nike Air Max 270",
+        "price": "149.99",
+        "description": "The Nike Air Max 270 delivers visible cushioning under every step with a bold look and a super-comfortable fit.",
+        "ratings": 4.5,
+        "images": [
+          { "image": "/images/products/nike_airmax3.jpg" },
+          { "image": "/images/products/nike_airmax2.jpg" },
+          { "image": "/images/products/nike_airmax1.jpg" }
+        ],
+        "category": "Clothes/Shoes",
+        "seller": "Nike",
+        "stock": 100,
+        "numofReviews": 300,
+        "reviews": [
+          {
+            "user": "666630d60378017ddfd3c2dd",
+            "rating": 4,
+            "comment": "Super comfortable and stylish."
+          }
+        ]
+      },
+      {
+        "name": "The Subtle Art of Not Giving a F*ck",
+        "price": "14.99",
+        "description": "A self-help guide that offers a refreshing take on living a good life by embracing life's challenges and setting realistic expectations.",
+        "ratings": 4.6,
+        "images": [
+          { "image": "/images/products/book_subtle_art.jpg" }
+        ],
+        "category": "Books",
+        "seller": "Mark Manson",
+        "stock": 30,
+        "numofReviews": 120,
+        "reviews": [
+          {
+            "user": "667290fbf24002732279ec2c",
+            "rating": 5,
+            "comment": "A life-changing book!"
+          }
+        ]
+      },
+      {
+        "name": "Rolex Submariner",
+        "price": "9950.00",
+        "description": "The Rolex Submariner is a classic luxury diving watch, known for its timeless design and precision craftsmanship.",
+        "ratings": 5.0,
+        "images": [
+          { "image": "/images/products/rolex_submariner1.jpg" },
+          { "image": "/images/products/rolex_submariner2.jpg" },
+          { "image": "/images/products/rolex_submariner2.jpg" }
+        ],
+        "category": "Accessories",
+        "seller": "Rolex",
+        "stock": 5,
+        "numofReviews": 50,
+        "reviews": [
+          {
+            "user": "64f6d9e9b2b78e5c9f1a7e27",
+            "rating": 5,
+            "comment": "An iconic timepiece, worth every penny."
+          }
+        ]
+      },
+    {
+        "name": "Sony 4K Curved TV | Slim HDR Android TV | SD85",
+        "price": "3776.90",
+        "description": "Our advanced image processing engine performs thousands of adjustments every second to dynamically enhance resolution, colour and brightness, taking every scene to the vividness of 4K and beyond",
+        "ratings": 4.5,
+        "images": [
+            {
+                "image": "/images/products/tv.PNG"
+            },
+            {
+                "image": "/images/products/tv2.PNG"
+            },
+            {
+                "image": "/images/products/tv1.PNG"
+            },
+            {
+                "image": "/images/products/tv3.PNG"
+            }
+        ],
+        "category": "Electronics",
+        "seller":"sony",
         "stock":5,
-        "numOfReviews":12,
+        "numofReviews":12,
         "reviews":[]
     },
     {
-        "name": "Samsung curved UHD Tv",
-        "price": "6776.90",
-        "description": "this is the description",
-        "rating": 4.5,
+        "name": "Apple Watch Ultra 2 with Ocean Band",
+        "price": "10590.68",
+        "description": "Interchangeable straps come in many different styles, materials and colours. So it’s easy to find the right look for the right moment.",
+        "ratings": 4.5,
         "images": [
             {
-                "image": "product_demo1.jpg"
+                "image": "/images/products/2a.PNG"
+            },
+            {
+                "image": "/images/products/2aa.PNG"
+            },
+            {
+                "image": "/images/products/2ab.PNG"
             }
         ],
         "category": "Electronics",
         "seller":"samsung",
         "stock":5,
-        "numOfReviews":12,
+        "numofReviews":12,
         "reviews":[]
     },
     {
         "name": "Lenovo thinkpad 420T",
         "price": "7457.90",
-        "description": "this is the description",
-        "rating": 4.5,
+        "description": "The Bottom Line. The Lenovo ThinkPad T420 is as straight-up and unassuming as a business laptop can be on the surface, souped up with faster performance, long battery life, and a flexible selection of ports under the hood",
+        "ratings": 4.5,
         "images": [
             {
-                "image": "product_demo2.jpg"
+                "image": "/images/products/3.jpg"
+            },
+            {
+                "image": "/images/products/1.jpg"
             }
         ],
         "category": "Laptops",
-        "seller":"Amazon",
+        "seller":"Lenovo",
         "stock":5,
-        "numOfReviews":12,
+        "numofReviews":12,
         "reviews":[]
     },
     {
         "name": "Talk Like Ted",
-        "price": "150.90",
-        "description": "this is the description",
-        "rating": 5,
+        "price": "20.90",
+        "description": "this is the description about Talk Like Ted",
+        "ratings": 5,
         "images": [
             {
-                "image": "product_demo3.jpg"
+                "image": "/images/products/0a.PNG"
+            },
+            {
+                "image": "/images/products/0b.PNG"
             }
         ],
         "category": "Books",
         "seller":"Carmine Gallo",
         "stock":7,
-        "numOfReviews":19,
+        "numofReviews":19,
         "reviews":[]
     },
     {
-        "name": "Nike sports shoes ",
+        "name": "Nike Pegasus 41Men's Road Running Shoes",
         "price": "632.90",
-        "description": "this is the description",
-        "rating": 4,
+        "description": "Responsive cushioning in the Pegasus provides an energised ride for everyday road running. Experience lighter-weight energy return with dual Air Zoom units and a ReactX foam midsole. Plus, improved engineered mesh on the upper decreases weight and increases breathability.",
+        "ratings": 4.5,
         "images": [
-            {
-                "image": "product_demo.jpg"
-            }
+            {"image": "/images/products/NikePegasus.jpg"},
+            {"image": "/images/products/NikePegasus2.jpg"},
+            {"image": "/images/products/NikePegasus1.jpg"}
         ],
         "category": "Clothes/Shoes",
         "seller":"Nike",
-        "stock":5,
-        "numOfReviews":12,
+        "stock":500,
+        "numofReviews":654,
         "reviews":[]
-    }
-    
+    },
+    {
+        "name": "Coca Cola",
+        "price": "12.20",
+        "description": "this is the description about Coca cola",
+        "ratings": 4.5,
+        "images": [
+            {
+                "image": "/images/products/6.webp"
+            },
+            {
+                "image": "/images/products/6-.PNG"
+            },
+            {
+                "image": "/images/products/1.jpg"
+            }
+        ],
+        "category": "Food and beverage",
+        "seller":"coca cola",
+        "stock":5,
+        "numofReviews":9,
+        "reviews":[]
+    },
+    {
+        "name": "louis vuitton premium luxury brand t-shirt outfit for men women",
+        "price": "1776.90",
+        "description": "this is the description of louis vuitton premium luxury brand t-shirt outfit for men women",
+        "ratings": 4.5,
+        "images": [
+            {
+                "image": "/images/products/7.PNG"
+            }
+        ],
+        "category": "Clothes/Shoes",
+        "seller":"louis vuitton",
+        "stock":50,
+        "numofReviews":120,
+        "reviews":[]
+    },
+    {
+        "name": "Neem Oil",
+        "price": "57.90",
+        "description": "a naturally occurring pesticide found in seeds from the neem tree. It is yellow to brown, has a bitter taste, and a garlic/sulfur smell. It has been used for hundreds of years to control pests and diseases",
+        "ratings": 4.5,
+        "images": [
+            {
+                "image": "/images/products/8.PNG"
+            }
+        ],
+        "category": "Beauty/Health",
+        "seller":"Ayush",
+        "stock":15,
+        "numofReviews":2,
+        "reviews":[]
+    },
+    {
+        "name": "Audi RS Q3 Sportback:SUV Radio symphony III, RHD",
+        "price": "4500.90",
+        "description": "The Audi Q3 is the best near-luxury compact SUV of the pack. The Volvo XC40 is a bit too funky even if the turbo is slightly better. The MB B-class and BMW X3 requires too many add-on",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/products/ss.PNG"
+            },
+            {
+                "image": "/images/products/ss2.jpg"
+            },
+            {
+                "image": "/images/products/ss1.jpg"
+            }
+        ],
+        "category": "Automobile",
+        "seller":"Audi",
+        "stock":7,
+        "numofReviews":19,
+        "reviews":[]
+    },
+    {
+        "name": "Samsung Gallexy Note 2",
+        "price": "563.90",
+        "description": "this is the description about Samsung Note 2",
+        "ratings": 4.5,
+        "images": [
+            {
+                "image": "/images/products/1.jpg"
+            },
+            {
+                "image": "/images/products/1.jpg"
+            },
+            {
+                "image": "/images/products/1.jpg"
+            }
+        ],
+        "category": "Mobile Phones",
+        "seller":"Samsung",
+        "stock":5,
+        "numofReviews":12,
+        "reviews":[]
+    },
+    {
+        "name": "AlunoTec Waterproof Aluminium Canopy Roof",
+        "price": "5246.90",
+        "description": "AlunoTec Wholesale Diy R Patio Cover Windows Polycarbonate Terrace Awning Waterproof Aluminium Canopy Roof",
+        "ratings": 4,
+        "images": [
+            {
+                "image": "/images/products/10.PNG"
+            }
+        ],
+        "category": "Outdoor",
+        "seller":"AlunoTec",
+        "stock":69,
+        "numofReviews":8,
+        "reviews":[]
+    },
+    {
+        "name": "FireBolt 13 smart Watch with waterproof",
+        "price": "1059.68",
+        "description": "Interchangeable straps come in many different styles, materials and colours. So it’s easy to find the right look for the right moment.",
+        "ratings": 3.8,
+        "images": [
+            {
+                "image": "/images/products/2.jpg"
+            },
+            {
+                "image": "/images/products/2aa.PNG"
+            }
+        ],
+        "category": "Electronics",
+        "seller":"FireBolt",
+        "stock":555,
+        "numofReviews":122,
+        "reviews":[]
+    },
+    {
+        "name": "Skullcandy Jib XT Bluetooth Wireless Earbuds | Up to 6 Hours Battery | Built-in Microphone",
+        "price": "110",
+        "description": "Free your soundtrack with the comfortable and lightweight Skullcandy Jib™ XT Wireless Earbuds. With 6+ hours of battery life, splash resistance, and cable clip, Jib™ XT lets you live wirelessly without any worries. Built-in Microphone with Call, Track, Volume Controls, and Activate Assistant",
+        "ratings": 4.8,
+        "images": [
+            {
+                "image": "/images/products/sc.PNG"
+            },
+            {
+                "image": "/images/products/sc1.PNG"
+            }
+        ],
+        "category": "Electronics",
+        "seller":"skull candy",
+        "stock":10,
+        "numofReviews":1,
+        "reviews":[]
+    },
+      {
+            "name": "Samsung 55 QLED 4K Smart TV",
+            "price": "2799.99",
+            "description": "Samsung's Quantum Dot technology delivers a beautiful picture by transforming light into a vivid color. Enjoy sharp details, crisp colors, and smooth motion on this Smart TV.",
+            "ratings": 4.7,
+            "images": [
+                {
+                    "image": "/images/products/samsung_tv1.jpg"
+                },
+                {
+                    "image": "/images/products/samsung_tv2.jpg"
+                }
+            ],
+            "category": "Electronics",
+            "seller": "Samsung",
+            "stock": 25,
+            "numofReviews": 48,
+            "reviews": []
+        },
+        {
+            "name": "Bose QuietComfort 45 Wireless Noise Cancelling Headphones",
+            "price": "399.99",
+            "description": "Experience the ultimate in comfort and sound with Bose's QuietComfort 45 headphones, featuring advanced noise cancellation technology and a sleek design.",
+            "ratings": 4.8,
+            "images": [
+                {
+                    "image": "/images/products/bose_headphones1.jpg"
+                },
+                {
+                    "image": "/images/products/bose_headphones2.jpg"
+                }
+            ],
+            "category": "Headphones",
+            "seller": "Bose",
+            "stock": 100,
+            "numofReviews": 302,
+            "reviews": []
+        },
+        {
+            "name": "Dyson V11 Torque Drive Cordless Vacuum",
+            "price": "749.99",
+            "description": "Dyson's most powerful, intelligent cordless vacuum. Twice the suction of any other cordless vacuum, with advanced filtration to trap 99.99% of particles.",
+            "ratings": 4.6,
+            "images": [
+                {
+                    "image": "/images/products/dyson_vacuum1.jpg"
+                },
+                {
+                    "image": "/images/products/dyson_vacuum2.jpg"
+                }
+            ],
+            "category": "Home",
+            "seller": "Dyson",
+            "stock": 30,
+            "numofReviews": 150,
+            "reviews": []
+        },
+        {
+            "name": "Adidas Ultraboost 22 Running Shoes",
+            "price": "180.00",
+            "description": "These running shoes have been designed for high-performance comfort with Boost technology in the sole for enhanced cushioning and energy return.",
+            "ratings": 4.7,
+            "images": [
+                {
+                    "image": "/images/products/adidas_ultraboost1.jpg"
+                },
+                {
+                    "image": "/images/products/adidas_ultraboost2.jpg"
+                }
+            ],
+            "category": "Clothes/Shoes",
+            "seller": "Adidas",
+            "stock": 200,
+            "numofReviews": 215,
+            "reviews": []
+        },
+        {
+            "name": "HP Pavilion 15 Laptop",
+            "price": "749.99",
+            "description": "A powerful laptop featuring the latest Intel Core processor, 8GB RAM, 256GB SSD, and a 15.6-inch Full HD display, perfect for everyday use and productivity.",
+            "ratings": 4.6,
+            "images": [
+                {
+                    "image": "/images/products/hp_laptop1.jpg"
+                },
+                {
+                    "image": "/images/products/hp_laptop2.jpg"
+                }
+            ],
+            "category": "Laptops",
+            "seller": "HP",
+            "stock": 50,
+            "numofReviews": 325,
+            "reviews": []
+        },
+        {
+            "name": "Apple iPhone 14 Pro",
+            "price": "1199.99",
+            "description": "Apple's latest iPhone 14 Pro comes with a 6.1-inch OLED display, A15 Bionic chip, Pro camera system, and 5G technology for the ultimate mobile experience.",
+            "ratings": 4.9,
+            "images": [
+                {
+                    "image": "/images/products/iphone14_pro1.jpg"
+                },
+                {
+                    "image": "/images/products/iphone14_pro2.jpg"
+                }
+            ],
+            "category": "Mobile Phones",
+            "seller": "Apple",
+            "stock": 40,
+            "numofReviews": 500,
+            "reviews": []
+        }
+        
 ]
