@@ -6,7 +6,7 @@ import APIFeatures from "../utils/apiFeatures.js";
 //  Get Products - /api/v1/products ------> Get request
 export const getProducts = catchAsyncError(async (req, res, next) => {
 
-  const resultPerPage = 4;
+  const resultPerPage = 8;
     
   let buildQuery = () => {
     return  new APIFeatures(Product.find(), req.query).search().filter()

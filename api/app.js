@@ -5,11 +5,23 @@ import errorMiddleware from './middlewares/error.js';
 import authRouter from './routes/authRoutes.js';
 import cookieParser from 'cookie-parser';
 import orderRouter from './routes/orderRoutes.js';
+import path from 'path'
+import { fileURLToPath } from 'url';
+import fs from 'fs';
+
+const __dirname= path.dirname(fileURLToPath(import.meta.url))
 
 const app = express();
   
+const uploadDir = path.join(__dirname, 'uploads', 'user');
+if(!fs.existsSync(uploadDir)){
+    fs.mkdirSync(uploadDir, { recursive: true });//create directory if doesn't exists
+
+}
+
 app.use(express.json());
 app.use(cookieParser());
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
 
 //Cross-Origin Resource Sharing------------
 app.use(cors({

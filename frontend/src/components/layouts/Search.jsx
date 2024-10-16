@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
+import './search.css';
 
 
 const Search = () => {
@@ -18,30 +19,34 @@ const Search = () => {
         setKeyword("");
     }
 
-    useEffect(()=>{
-        if(location.pathname == '/'){
-            clearKeyword();  
+    useEffect(() => {
+        if (location.pathname == '/') {
+            clearKeyword();
         }
-    },[location])
+    }, [location])
 
     return (
-        <form onSubmit={searchHandler}>
-            <div className="input-group">
-                <input
-                    type="text"
-                    id="search_field"
-                    className="form-control"
-                    placeholder="Enter Product Name ..."
-                    value={keyword}
-                    onChange={(e) => setKeyword(e.target.value)}
-                />
-                <div className="input-group-append">
-                    <button id="search_btn" className="btn">
-                        <i className="fa fa-search" aria-hidden="true"></i>
-                    </button>
+        <div>
+            <form onSubmit={searchHandler}>
+                <div className="input-group w-full">
+                    <input
+                        type="text"
+                        id="search_field"
+                        className=" input"
+                        placeholder="Search Products"
+                        value={keyword}
+                        onChange={(e) => setKeyword(e.target.value)}
+                    />
+                    <div className="input-group-append">
+                        <button id="search_btn" className="btn">
+                            <i className="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
+            
+        </div>
+
     )
 }
 

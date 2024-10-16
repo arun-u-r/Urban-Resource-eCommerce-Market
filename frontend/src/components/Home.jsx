@@ -1,6 +1,6 @@
-import React, { Fragment, useEffect, useState } from 'react'
+import React, {  useEffect, useState } from 'react'
 import MetaData from './layouts/MetaData'
-import { getProducts } from '../actions/productsActions'
+import { getProducts } from '../actions/productActions.js'
 import { useDispatch, useSelector } from 'react-redux'
 import Loader from './layouts/Loader';
 import Product from './product/Product';
@@ -17,7 +17,6 @@ const Home = () => {
     const dispatch = useDispatch();
 
     const { products, loading, error, productsCount, resultPerPage } = useSelector((state) => state.productsState);
-    // console.log("product data is -", products)
 
     useEffect(() => {
         if (error) {
@@ -25,7 +24,7 @@ const Home = () => {
                 position: "bottom-center",
             })
         }
-        dispatch(getProducts(null,null ,currentPage))
+        dispatch(getProducts(null,null, null, null, currentPage))//keyword, price, category, rating null 
     }, [error, dispatch, currentPage]);
 
     const handlePageClick = (data) => {
